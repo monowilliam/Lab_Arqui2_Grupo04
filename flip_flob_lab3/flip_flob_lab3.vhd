@@ -24,16 +24,16 @@ flip: process (reset, av)
 begin
 	Bucle: for i in 0 to 3 loop
 		S(i) <= entrada(i);
-		if (reset = '0') then
-			if (av = '1') then
-				Q(i) <= notQ(i) nor reset;
+		if (reset = '0') then		-- condicion para ver si el reset es 0
+			if (av = '1') then	-- condicion para ver la señal de temperatura está activada
+				Q(i) <= notQ(i) nor reset;	-- Latch S-R
 				notQ(i) <= Q(i) nor S(i); 
-				if entrada(i)  /= '1' then
+				if entrada(i)  /= '1' then	-- Condicion para poner los ceros cuando no sea 1
 					Q(i) <= '0';
 				end if;
 			end if;
 			else
-				Q(i) <= '0';
+				Q(i) <= '0';		
 		end if;
 		Qsalida(i) <= Q(i); 
 	end loop Bucle;
@@ -44,8 +44,8 @@ end process;
 --*******Codigo simulando alto nivel simplificado************
 --flip: process (reset, av)
 --begin
---	if (reset = '0') then
---		if(av = '1') then
+--	if (reset = '0') then		-- condicion para ver si el reset es 0
+--		if(av = '1') then	-- condicion para ver la señal de temperatura está activada
 --			QSalida <= entrada;
 --		end if;
 --	else
