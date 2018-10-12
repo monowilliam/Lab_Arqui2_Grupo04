@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\OneDrive - Pontificia Universidad Javeriana Cali\VHDL_Source\Lab_Arqui2_Grupo04\flip_flob_lab3\simulation\qsim
+vflip_flob_lab3
+Z1 !s100 I=6ZGY;kE`U4ngon;F0FW2
+Z2 I`[J<iQ>Vm_j6Q>:PhF1QU0
+Z3 VU@S5RkCG7ha3I7JVfei1j3
+Z4 dD:\OneDrive - Pontificia Universidad Javeriana Cali\VHDL_Source\Lab_Arqui2_Grupo04\flip_flob_lab3\simulation\qsim
+Z5 w1539305282
+Z6 8flip_flob_lab3.vo
+Z7 Fflip_flob_lab3.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|flip_flob_lab3.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1539305283.646000
+Z12 !s107 flip_flob_lab3.vo|
+!s101 -O0
+vflip_flob_lab3_vlg_check_tst
+!i10b 1
+Z13 !s100 [G_PnYlULY0L:S3Z52R741
+Z14 IMPIU]OMocWZ>>^ACbVZAU2
+Z15 V;:LkhBYK?LQaSF^fce2Lo1
+R4
+Z16 w1539305281
+Z17 8flip_flob_lab3.vt
+Z18 Fflip_flob_lab3.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1539305283.740000
+Z20 !s107 flip_flob_lab3.vt|
+Z21 !s90 -work|work|flip_flob_lab3.vt|
+!s101 -O0
+R10
+vflip_flob_lab3_vlg_sample_tst
+!i10b 1
+Z22 !s100 k9b5_jmbz>[Y5<Nacojgj3
+Z23 I^NQmTFXNcEVY=>nQOXb5d3
+Z24 VkGYX[giQf50TmjZRleGe31
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vflip_flob_lab3_vlg_vec_tst
+!i10b 1
+!s100 >8WPSf84zjd@dSGe;5_`@0
+IAi3Dl7?=@aQ:IeL=117@h2
+Z25 V>PMb_@Ig3a[^1nLJO?:@i0
+R4
+R16
+R17
+R18
+Z26 L0 209
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

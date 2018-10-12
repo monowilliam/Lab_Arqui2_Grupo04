@@ -4,10 +4,10 @@ K3
 cModel Technology
 Z0 dD:\OneDrive - Pontificia Universidad Javeriana Cali\VHDL_Source\flip_flop_D\simulation\qsim
 vflip_flop_D
-Z1 ICY8EcG4L3>ao9B]0bFMH]0
-Z2 VDcfN8>X8;mTj:]>S7@08a1
-Z3 dD:\OneDrive - Pontificia Universidad Javeriana Cali\VHDL_Source\flip_flop_D\simulation\qsim
-Z4 w1538155097
+Z1 I:Q@[6<fjWlL0VIHDiH2@U1
+Z2 Vgg65O9Ok9Wnm1R_SAaUNM3
+Z3 dD:\OneDrive - Pontificia Universidad Javeriana Cali\VHDL_Source\Lab_Arqui2_Grupo04\flip_flop_D\simulation\qsim
+Z4 w1538157584
 Z5 8flip_flop_D.vo
 Z6 Fflip_flop_D.vo
 L0 31
@@ -18,68 +18,68 @@ Z8 !s90 -work|work|flip_flop_D.vo|
 Z9 o-work work -O0
 Z10 nflip_flop_@d
 !i10b 1
-Z11 !s100 ^JlB^zCN0Rk93=B6YSd6:1
+Z11 !s100 ^5LKh@4aHQ51z@_EHMTY60
 !s85 0
-Z12 !s108 1538155098.119000
+Z12 !s108 1538157585.774000
 Z13 !s107 flip_flop_D.vo|
 !s101 -O0
 vflip_flop_D_vlg_check_tst
 !i10b 1
-!s100 [N^2BoR2e2F:F1oSI8a673
-I3g[4fmiYlgPM[ACeChFEP0
-VzA1I9]_fQMTGQJ^od<JbG3
+Z14 !s100 N>V@Q>@h3R1?1VS=PZK^C3
+Z15 I>DL60?Bb6gGDLfe?kH`Sc2
+Z16 V;mCi<4N9XJ3Wfah8cdW=D1
 R3
-Z14 w1538155095
-Z15 8flip_flop_D.vt
-Z16 Fflip_flop_D.vt
-L0 59
+Z17 w1538157583
+Z18 8flip_flop_D.vt
+Z19 Fflip_flop_D.vt
+L0 63
 R7
 r1
 !s85 0
 31
-Z17 !s108 1538155098.197000
-Z18 !s107 flip_flop_D.vt|
-Z19 !s90 -work|work|flip_flop_D.vt|
+Z20 !s108 1538157585.868000
+Z21 !s107 flip_flop_D.vt|
+Z22 !s90 -work|work|flip_flop_D.vt|
 !s101 -O0
 R9
-Z20 nflip_flop_@d_vlg_check_tst
+Z23 nflip_flop_@d_vlg_check_tst
 vflip_flop_D_vlg_sample_tst
 !i10b 1
-!s100 HGCmlYG40jfQUnnUU:gI<1
-I?@]JKMniN?1k8<f`4UW6I0
-V?1Flb7i?D_ZF6DBDjN9L71
+Z24 !s100 K4FXif77Mz31HoL_^fGC_0
+Z25 IH?4ZkF0;R5I<NJCAA4oDN0
+Z26 Vj5S[MYU0J<H5CmL<7OI0P0
 R3
-R14
-R15
-R16
+R17
+R18
+R19
 L0 29
 R7
 r1
 !s85 0
 31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 nflip_flop_@d_vlg_sample_tst
+vflip_flop_D_vlg_vec_tst
+!i10b 1
+Z28 !s100 NK<i==0W]A4Eg[W8i@a`b2
+Z29 I1ZTmlYYTHbhSI7;4d35?h2
+Z30 VFF]_5NjVDNe<AoOn97a=U2
+R3
 R17
 R18
 R19
-!s101 -O0
-R9
-Z21 nflip_flop_@d_vlg_sample_tst
-vflip_flop_D_vlg_vec_tst
-!i10b 1
-!s100 lg^J?CGWN<he<T][5>kl70
-IAj^1XP3GjT_a`ohB]6?bU3
-Z22 VFF]_5NjVDNe<AoOn97a=U2
-R3
-R14
-R15
-R16
-L0 175
+Z31 L0 158
 R7
 r1
 !s85 0
 31
-R17
-R18
-R19
+R20
+R21
+R22
 !s101 -O0
 R9
-Z23 nflip_flop_@d_vlg_vec_tst
+Z32 nflip_flop_@d_vlg_vec_tst

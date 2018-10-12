@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
 
-// DATE "09/28/2018 12:18:17"
+// DATE "09/28/2018 12:59:44"
 
 // 
 // Device: Altera EP2C20F484C7 Package FBGA484
@@ -31,10 +31,14 @@
 module flip_flop_D (
 	D,
 	clock,
-	Q);
-inout 	D;
+	Q,
+	reset,
+	set);
+input 	D;
 input 	clock;
 output 	Q;
+input 	reset;
+input 	set;
 
 wire gnd;
 wire vcc;
@@ -47,14 +51,17 @@ assign unknown = 1'bx;
 tri1 devclrn;
 tri1 devpor;
 tri1 devoe;
-wire \D~0 ;
+wire \reset~combout ;
 wire \clock~combout ;
-wire \temp~regout ;
+wire \D~combout ;
+wire \set~combout ;
+wire \Q~0_combout ;
+wire \Q~reg0_regout ;
 
 
-cycloneii_io \D~I (
-	.datain(vcc),
-	.oe(vcc),
+cycloneii_io \reset~I (
+	.datain(gnd),
+	.oe(gnd),
 	.outclk(gnd),
 	.outclkena(vcc),
 	.inclk(gnd),
@@ -66,26 +73,25 @@ cycloneii_io \D~I (
 	.devclrn(devclrn),
 	.devpor(devpor),
 	.devoe(devoe),
-	.combout(\D~0 ),
+	.combout(\reset~combout ),
 	.regout(),
 	.differentialout(),
 	.linkout(),
-	.padio(D));
+	.padio(reset));
 // synopsys translate_off
-defparam \D~I .input_async_reset = "none";
-defparam \D~I .input_power_up = "low";
-defparam \D~I .input_register_mode = "none";
-defparam \D~I .input_sync_reset = "none";
-defparam \D~I .oe_async_reset = "none";
-defparam \D~I .oe_power_up = "low";
-defparam \D~I .oe_register_mode = "none";
-defparam \D~I .oe_sync_reset = "none";
-defparam \D~I .open_drain_output = "true";
-defparam \D~I .operation_mode = "bidir";
-defparam \D~I .output_async_reset = "none";
-defparam \D~I .output_power_up = "low";
-defparam \D~I .output_register_mode = "none";
-defparam \D~I .output_sync_reset = "none";
+defparam \reset~I .input_async_reset = "none";
+defparam \reset~I .input_power_up = "low";
+defparam \reset~I .input_register_mode = "none";
+defparam \reset~I .input_sync_reset = "none";
+defparam \reset~I .oe_async_reset = "none";
+defparam \reset~I .oe_power_up = "low";
+defparam \reset~I .oe_register_mode = "none";
+defparam \reset~I .oe_sync_reset = "none";
+defparam \reset~I .operation_mode = "input";
+defparam \reset~I .output_async_reset = "none";
+defparam \reset~I .output_power_up = "low";
+defparam \reset~I .output_register_mode = "none";
+defparam \reset~I .output_sync_reset = "none";
 // synopsys translate_on
 
 cycloneii_io \clock~I (
@@ -123,9 +129,95 @@ defparam \clock~I .output_register_mode = "none";
 defparam \clock~I .output_sync_reset = "none";
 // synopsys translate_on
 
-cycloneii_lcell_ff temp(
+cycloneii_io \D~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\D~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(D));
+// synopsys translate_off
+defparam \D~I .input_async_reset = "none";
+defparam \D~I .input_power_up = "low";
+defparam \D~I .input_register_mode = "none";
+defparam \D~I .input_sync_reset = "none";
+defparam \D~I .oe_async_reset = "none";
+defparam \D~I .oe_power_up = "low";
+defparam \D~I .oe_register_mode = "none";
+defparam \D~I .oe_sync_reset = "none";
+defparam \D~I .operation_mode = "input";
+defparam \D~I .output_async_reset = "none";
+defparam \D~I .output_power_up = "low";
+defparam \D~I .output_register_mode = "none";
+defparam \D~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \set~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\set~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(set));
+// synopsys translate_off
+defparam \set~I .input_async_reset = "none";
+defparam \set~I .input_power_up = "low";
+defparam \set~I .input_register_mode = "none";
+defparam \set~I .input_sync_reset = "none";
+defparam \set~I .oe_async_reset = "none";
+defparam \set~I .oe_power_up = "low";
+defparam \set~I .oe_register_mode = "none";
+defparam \set~I .oe_sync_reset = "none";
+defparam \set~I .operation_mode = "input";
+defparam \set~I .output_async_reset = "none";
+defparam \set~I .output_power_up = "low";
+defparam \set~I .output_register_mode = "none";
+defparam \set~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_lcell_comb \Q~0 (
+// Equation(s):
+// \Q~0_combout  = (\reset~combout  & ((\set~combout  & (\Q~reg0_regout )) # (!\set~combout  & ((\D~combout )))))
+
+	.dataa(\reset~combout ),
+	.datab(\Q~reg0_regout ),
+	.datac(\D~combout ),
+	.datad(\set~combout ),
+	.cin(gnd),
+	.combout(\Q~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \Q~0 .lut_mask = 16'h88A0;
+defparam \Q~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneii_lcell_ff \Q~reg0 (
 	.clk(\clock~combout ),
-	.datain(\D~0 ),
+	.datain(\Q~0_combout ),
 	.sdata(gnd),
 	.aclr(gnd),
 	.sclr(gnd),
@@ -133,10 +225,10 @@ cycloneii_lcell_ff temp(
 	.ena(vcc),
 	.devclrn(devclrn),
 	.devpor(devpor),
-	.regout(\temp~regout ));
+	.regout(\Q~reg0_regout ));
 
 cycloneii_io \Q~I (
-	.datain(\temp~regout ),
+	.datain(\Q~reg0_regout ),
 	.oe(vcc),
 	.outclk(gnd),
 	.outclkena(vcc),

@@ -64,5 +64,5 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/OneDrive - Pontificia Universidad Javeriana Cali/VHDL_Source/flip_flop_D/Waveform6.vwf"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/OneDrive - Pontificia Universidad Javeriana Cali/VHDL_Source/Lab_Arqui2_Grupo04/flip_flop_D/Waveform.vwf"

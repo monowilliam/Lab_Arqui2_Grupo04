@@ -1,0 +1,19 @@
+|flip_flob_lab3
+entrada[0] => Qsalida[0]$latch.DATAIN
+entrada[1] => Qsalida[1]$latch.DATAIN
+entrada[2] => Qsalida[2]$latch.DATAIN
+entrada[3] => Qsalida[3]$latch.DATAIN
+reset => Qsalida[0]$latch.ACLR
+reset => Qsalida[1]$latch.ACLR
+reset => Qsalida[2]$latch.ACLR
+reset => Qsalida[3]$latch.ACLR
+av => Qsalida[0]$latch.LATCH_ENABLE
+av => Qsalida[1]$latch.LATCH_ENABLE
+av => Qsalida[2]$latch.LATCH_ENABLE
+av => Qsalida[3]$latch.LATCH_ENABLE
+Qsalida[0] <= Qsalida[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Qsalida[1] <= Qsalida[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Qsalida[2] <= Qsalida[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Qsalida[3] <= Qsalida[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
