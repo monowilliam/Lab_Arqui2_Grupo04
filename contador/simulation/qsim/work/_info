@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\OneDrive - Pontificia Universidad Javeriana Cali\VHDL_Source\Lab_Arqui2_Grupo04\contador\simulation\qsim
+vcontador
+Z1 !s100 [G@6^=KaQjfEz?NY9L:i32
+Z2 IlfkNKRl`I:;ZaMo0[AE^Q2
+Z3 Vdl3j5X5F54<b]MQ3:XiQ93
+Z4 dD:\OneDrive - Pontificia Universidad Javeriana Cali\VHDL_Source\Lab_Arqui2_Grupo04\contador\simulation\qsim
+Z5 w1539362125
+Z6 8contador.vo
+Z7 Fcontador.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|contador.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1539362126.470000
+Z12 !s107 contador.vo|
+!s101 -O0
+vcontador_vlg_check_tst
+!i10b 1
+Z13 !s100 =6g[=L>ia>3Rg2i9Q2<RD3
+Z14 I@A=UWQ]7JkQ=CifOMDPl?2
+Z15 V4donEh;kCiK?^75UNHl<P2
+R4
+Z16 w1539362124
+Z17 8contador.vt
+Z18 Fcontador.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1539362126.580000
+Z20 !s107 contador.vt|
+Z21 !s90 -work|work|contador.vt|
+!s101 -O0
+R10
+vcontador_vlg_sample_tst
+!i10b 1
+Z22 !s100 4:8olS:QX[W=hA]VJ5Zkj2
+Z23 I^23SizZOAm<`LDK[Z?DO_1
+Z24 VQojOn_6G4IjYP5=NU3;VJ2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vcontador_vlg_vec_tst
+!i10b 1
+!s100 OX4Q>anfggf<5DCP^?KGn3
+I[LZWN6T2L4@MTmb>MD7NS2
+Z25 Vg7eM`4C4en1cUe:c[RGT<3
+R4
+R16
+R17
+R18
+Z26 L0 163
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

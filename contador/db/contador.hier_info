@@ -1,0 +1,9 @@
+|contador
+Q[0] <> Q[0]~reg0
+Q[1] <> Q[1]~reg0
+reset => Q[0]~reg0.ACLR
+reset => Q[1]~reg0.ACLR
+clock => Q[0]~reg0.CLK
+clock => Q[1]~reg0.CLK
+
+
