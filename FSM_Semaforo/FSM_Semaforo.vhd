@@ -4,12 +4,12 @@ use ieee.std_logic_unsigned.all;
 
 --DEFINICIÓN DE LA ENTIDAD
 Entity FSM_Semaforo is port(
-	carro : in std_logic;
-	clock : in std_logic;
-	Fin_tiempo : in std_logic;
+	carro 					: in std_logic;
+	clock 					: in std_logic;
+	Fin_tiempo 				: in std_logic;
 	activar_temporizador : in std_logic;
-	verde_avenida : out std_logic;
-	sensor : in std_logic
+	sensor 					: in std_logic;
+	verde_avenida 			: out std_logic
 );
 end entity;
 
