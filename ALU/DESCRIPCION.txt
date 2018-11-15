@@ -1,0 +1,11 @@
+-----------------------------------------
+-- Actividad : Creación de la primera ALU en vhdl
+-- Fecha : 19/10/2018
+-- Curso : Arquitectura de Computadores II
+-- Archivo : ALU.vhd
+-----------------------------------------
+-- Descripcion : Creación de la primera ALU en vhdl
+--		 Que tiene cuatro funciones.
+-----------------------------------------
+-- Cambios : primera version 19/10/2018
+-----------------------------------------

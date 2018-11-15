@@ -1,0 +1,7 @@
+-----------------------------------------
+-- Actividad : Flip Flop tipo D hecho durante la monitoria
+-- Curso : Arquitectura de Computadores II
+-- Archivo : flip_flop_D.vhd
+-----------------------------------------
+-- Descripcion : Creación de un flip flop D
+-----------------------------------------

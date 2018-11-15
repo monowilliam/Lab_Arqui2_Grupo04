@@ -1,0 +1,10 @@
+-----------------------------------------
+-- Actividad : LABORATORIO 3 Flip-flop
+-- Curso : Arquitectura de Computadores II
+-- Archivo : flip_flob_lab3.vhd
+-----------------------------------------
+-- Descripcion : Flip Flop S-R 
+--		 Hay dos tipos de codigo funcionales
+--	1) Codigo en alto nivel muy simplificado que se encuentra comentado
+--	2) Codigo en VHDL simulando en bajo nivel el flip flop
+-----------------------------------------

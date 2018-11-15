@@ -1,0 +1,7 @@
+-----------------------------------------
+-- Actividad : Contador con Flanco de subida
+-- Curso : Arquitectura de Computadores II
+-- Archivo : contador.vhd
+-----------------------------------------
+-- Descripcion : Contador con Flanco de subida
+-----------------------------------------

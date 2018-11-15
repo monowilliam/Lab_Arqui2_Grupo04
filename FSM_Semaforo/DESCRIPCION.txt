@@ -1,0 +1,7 @@
+-----------------------------------------
+-- Actividad : 
+-- Curso : Arquitectura de Computadores II
+-- Archivo : FSM_Semaforo.vhd
+-----------------------------------------
+-- Descripcion : Maquina de estado del Semaforo.
+-----------------------------------------
